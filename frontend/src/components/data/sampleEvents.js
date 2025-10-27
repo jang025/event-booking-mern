@@ -4,7 +4,7 @@ export const sampleEvents = [
     event_id: "E1001",
     long_title: "Tech Meetup Singapore 2025",
     short_title: "Tech Meetup SG",
-    event_image: "/images/tech-meetup.jpg",
+    event_image: "/images/tech-meetup.png",
     category: "Technology",
     start_time: "2025-11-01T09:00:00Z",
     end_time: "2025-11-01T18:00:00Z",

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function ConformationTicket({ data = {} }) {
+export default function ConfirmationTicket({ data = {} }) {
   const event = data.event || {};
   const attendee = data.attendee || {};
 

@@ -27,17 +27,44 @@ export default function Eventcard({ event }) {
 
   return (
     <>
-      <div style={{ display: "flex", gap: "20px" }}>
+      <div
+        style={{
+          display: "inline-flex",
+          alignItems: "flex-start",
+          gap: "20px",
+          maxWidth: "700px",
+          borderStyle: "solid",
+          verticalAlign: "top",
+        }}
+      >
         {/* image container */}
-        <div>
-          <p>image</p>
+        <div style={{ flex: "0 0 250px" }}>
+          <img
+            src={event_image}
+            alt={short_title}
+            style={{
+              width: "100%",
+              height: "auto",
+              borderRadius: "8px",
+              objectFit: "cover",
+              display: "block",
+            }}
+          />
         </div>
         <div>
-          <h2>{short_title}</h2>
-          <p>{formatted}</p>
-          <p>{venue}</p>
-          <p>price</p>
-          <p>{status}</p>
+          <h2 style={{ margin: 0 }}>{short_title}</h2>
+          <p style={{ margin: 0 }}>{formatted}</p>
+          <p style={{ margin: 0 }}>{venue}</p>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              margin: 0,
+            }}
+          >
+            <p>price</p>
+            <p>{status}</p>
+          </div>
         </div>
       </div>
     </>
