@@ -1,0 +1,45 @@
+// src/data/events.js
+export const sampleEvents = [
+  {
+    event_id: "E1001",
+    long_title: "Tech Meetup Singapore 2025",
+    short_title: "Tech Meetup SG",
+    event_image: "/images/tech-meetup.jpg",
+    category: "Technology",
+    start_time: "2025-11-01T09:00:00Z",
+    end_time: "2025-11-01T18:00:00Z",
+    venue: "Suntec Singapore Convention & Exhibition Centre",
+    organiser_name: "Tech Network",
+    organiser_description: "A community of innovators and tech enthusiasts.",
+    organiser_contact_name: "Jane Doe",
+    organiser_image: "/images/jane.jpg",
+    organiser_email: "jane@technetwork.com",
+    event_short_description: "Join Singapore’s biggest tech networking event!",
+    event_long_description:
+      "Tech Meetup Singapore brings together developers, founders, and innovators to explore the latest in AI, cloud, and startup tech.",
+    address: "1 Raffles Blvd, Singapore 039593",
+    tiers: [
+      { name: "General", price: 108, capacity: 300 },
+      { name: "VIP", price: 250, capacity: 50 },
+    ],
+    total_event_capacity: 350,
+    available_capacity: 200,
+    status: "active",
+  },
+  {
+    event_id: "E1002",
+    short_title: "Design Thinking Workshop",
+    event_image: "/images/design.jpg",
+    category: "Business",
+    start_time: "2025-12-05T10:00:00Z",
+    end_time: "2025-12-05T16:00:00Z",
+    venue: "WeWork Funan",
+    organiser_name: "CreativeLab",
+    event_short_description:
+      "A hands-on design thinking workshop for entrepreneurs.",
+    tiers: [{ name: "Standard", price: 89, capacity: 40 }],
+    total_event_capacity: 40,
+    available_capacity: 12,
+    status: "active",
+  },
+];
