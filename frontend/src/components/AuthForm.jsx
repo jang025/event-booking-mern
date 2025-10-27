@@ -16,6 +16,7 @@ function AuthForm({
           type="text"
           id="username"
           name="username"
+          placeholder="Enter your username"
           value={formData.username}
           onChange={handleChange}
           required
@@ -25,6 +26,7 @@ function AuthForm({
           type="password"
           id="password"
           name="password"
+          placeholder="Enter your password"
           value={formData.password}
           onChange={handleChange}
           required
@@ -36,6 +38,7 @@ function AuthForm({
               type="email"
               id="email"
               name="email"
+              placeholder="Enter your email"
               value={formData.email}
               onChange={handleChange}
               required
